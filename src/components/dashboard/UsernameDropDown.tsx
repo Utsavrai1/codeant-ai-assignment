@@ -6,7 +6,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./ui/select";
+} from "@/components/ui/select";
 
 const UsernameSelection = () => {
   const [username, setUsername] = useState("Utsavrai1");

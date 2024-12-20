@@ -7,9 +7,9 @@ import {
   Phone,
   LogOut,
 } from "lucide-react";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 import { codeantai } from "@/assets";
-import UsernameSelection from "./username";
+import UsernameSelection from "./UsernameDropDown";
 
 interface SidebarProps {
   className?: string;

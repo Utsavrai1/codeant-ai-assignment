@@ -1,13 +1,13 @@
-import { Badge } from "./ui/badge";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 import { RefreshCw, Plus, Database } from "lucide-react";
 import { repositories } from "@/constants";
 
 export function RepositoryList() {
   return (
-    <div className="flex-1 px-4 py-6 sm:px-6 lg:px-8 flex flex-col h-full">
-      <div className="flex flex-col items-start justify-between space-y-4 md:flex-row">
+    <div className="flex-1 px-4 py-6 sm:px-6 lg:px-8 flex flex-col h-full bg-white m-3 rounded-xl">
+      <div className="flex flex-col items-start justify-between space-y-4 md:flex-row ">
         <div>
           <h1 className="text-2xl font-semibold text-gray-900">Repositories</h1>
           <p className="mt-1 text-sm text-gray-500">33 total repositories</p>
